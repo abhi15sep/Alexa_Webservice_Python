@@ -52,7 +52,7 @@ def get_wish():
         hours = 24+hours
 
     if hours < 12:
-        return  'Good morning. ' 
+        return  'Good morning. '
     elif hours < 18:
         return 'Good afternoon. '
     else:

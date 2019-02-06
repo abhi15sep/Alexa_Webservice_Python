@@ -1,1 +1,1 @@
-web: python greeting_ask.py
+web: python greeting.py
