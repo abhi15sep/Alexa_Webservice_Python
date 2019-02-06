@@ -28,11 +28,14 @@ At last use  https://c83a32a7.ngrok.io as https endpoint. Make sure to select "M
 Steps to Deploy code in Heroku:
 ==============================
 Heroku steps
+
 i) Flask run code
    port = int(os.getenv('PORT', 5000))
    print "Starting app on port %d" % port
    app.run(debug=False, port=port, host='0.0.0.0')
+   
 ii) Create Procfile, requirements.txt
+
 iii) Commands:
     >> git init .
     >> git add .
